@@ -39,11 +39,14 @@ body {
     border-radius: 50%;
     background-color: transparent;
     position: absolute;
-    top: -4.5%;
+    top: -3.9%;
     left: -4%;
-    box-shadow: -3px -3px 9px rgba(247, 237, 237, 0.8);
-
+    box-shadow: -1px -1px 9px rgba(247, 237, 237, 0.8);
 }
+
+
+
+
 .hrhand,.minhand, .sechand {
     width: 20vmin;
     height: 2vmin;
@@ -82,15 +85,15 @@ body {
 }
 
 .hr12, .hr1, .hr2, .hr3, .hr4, .hr5 {
-    width: 39vmin;
-    height: 1vmin;
-    border-left: 5vmin solid black;
-    border-right: 5vmin solid black;
+    width: 42vmin;
+    height: .4vmin;
+    border-left: 4vmin solid black;
+    border-right: 4vmin solid black;
     background-color: transparent;
     display: flex;
     justify-content: space-around;
-    top: 49%;
-    left: 66%;
+    top: 50%;
+    left: 65%;
     position: absolute;
 }
 .hr12 { transform: rotate(180deg) translate(34vmin, 0vmin); }
